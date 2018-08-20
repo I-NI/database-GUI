@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: databaseGUI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/databaseGUI.res" /d "_DEBUG" /d "_AFXDLL" "E:\北邮\databaseGUI\databaseGUI.rc"" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP47CD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/databaseGUI.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\北邮\databaseGUI\AddNew.cpp"
+"E:\北邮\databaseGUI\CntrItem.cpp"
+"E:\北邮\databaseGUI\databaseGUI.cpp"
+"E:\北邮\databaseGUI\databaseGUIDoc.cpp"
+"E:\北邮\databaseGUI\databaseGUISet.cpp"
+"E:\北邮\databaseGUI\databaseGUIView.cpp"
+"E:\北邮\databaseGUI\MainFrm.cpp"
+"E:\北邮\databaseGUI\RecordsetAdd.cpp"
+"E:\北邮\databaseGUI\SHUJUNew.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP47CD.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP47CE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/databaseGUI.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\北邮\databaseGUI\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP47CE.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP47DF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/databaseGUI.pdb" /debug /machine:I386 /out:"Debug/databaseGUI.exe" /pdbtype:sept 
+".\Debug\AddNew.obj"
+".\Debug\CntrItem.obj"
+".\Debug\databaseGUI.obj"
+".\Debug\databaseGUIDoc.obj"
+".\Debug\databaseGUISet.obj"
+".\Debug\databaseGUIView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\RecordsetAdd.obj"
+".\Debug\SHUJUNew.obj"
+".\Debug\StdAfx.obj"
+".\Debug\databaseGUI.res"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP47DF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddNew.cpp
+CntrItem.cpp
+databaseGUI.cpp
+databaseGUIDoc.cpp
+databaseGUISet.cpp
+databaseGUIView.cpp
+MainFrm.cpp
+RecordsetAdd.cpp
+SHUJUNew.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+databaseGUI.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
